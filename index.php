@@ -1,3 +1,3 @@
 <?php
 
-require "templates/footer.php";
+require "views/about.php";
