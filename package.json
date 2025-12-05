@@ -1,0 +1,23 @@
+{
+  "name": "novacraft",
+  "version": "1.0.0",
+  "description": "Modernisation du site vitrine statique de NovaCraft Studio en un site partiellement dynamique avec PHP, sans base de données.  \r Le projet transforme une base HTML/CSS/Tailwind en un site maintenable avec routing, templates et contenu dynamique.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houssamlargou/NovaCraft-Studio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houssamlargou/NovaCraft-Studio/issues"
+  },
+  "homepage": "https://github.com/houssamlargou/NovaCraft-Studio#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

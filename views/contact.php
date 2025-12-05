@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/output.css">
+</head>
+<body class="">
+        <?php require(__DIR__ . "/../templates/header.php"); ?> 
+        <section class="flex flex-col justify-center items-center h-screen">
+            <div class="flex flex-col gap-4">
+                <div class="text-4xl font-semibold">Contactez-nous</div>
+                <form class="bg-neutral-200 w-150 rounded-lg p-4 flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <label for="name" class="text-2xl">Nom complet</label>
+                        <input type="text" id="name" placeholder="Votre nom" class="w-full px-3 py-1 border-2 border-neutral-400 rounded-lg">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="email" class="text-2xl">Email</label>
+                        <input type="email" id="email" placeholder="Votre email" class="w-full px-3 py-1 border-2 border-neutral-400 rounded-lg">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="message" class="text-2xl">Message</label>
+                        <textarea placeholder="Votre message..." id="message" class="border-2 border-neutral-400 p-2"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Envoyee" class="bg-blue-600 p-3 text-neutral-50 rounded-lg">
+                    </div>
+                </form>
+            </div>
+        </section>
+    <?php require(__DIR__ . "/../templates/footer.php") ?>
+</body>
+</html>
