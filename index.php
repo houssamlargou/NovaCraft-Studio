@@ -11,4 +11,6 @@ $routes = [
 
 if(array_key_exists($uri, $routes)){
     return require $routes[$uri];
+} else {
+    return require "views/404.php";
 }
