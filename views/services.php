@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php require(__DIR__ . "/../templates/header.php"); ?> 
-    <section class="py-16 px-5 flex flex-col gap-8 justify-center items-center">
+    <section class="h-screen px-5 flex flex-col gap-8 justify-center items-center">
         <h1 class="text-4xl font-semibold">Nos Services</h1>
         <div class="flex gap-6">
             <div class="h-52 w-80 bg-neutral-300 flex flex-col items-center justify-center p-7 gap-4">
