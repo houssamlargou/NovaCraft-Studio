@@ -1,4 +1,7 @@
 <?php
+// echo "<pre>";
+// var_dump($_SERVER);
+// echo "</pre>";
 
 $uri = parse_url($_SERVER["REQUEST_URI"])["path"];
 
